@@ -9,4 +9,3 @@ applications:
   services:
   - tracker-backlog-database
   - tracker-service-registry
-
