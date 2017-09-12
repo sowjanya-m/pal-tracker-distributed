@@ -5,7 +5,6 @@ applications:
   memory: 1G
   instances: 1
   env:
-    TRUST_CERTS: apps.longs.pal.pivotal.io
+    REGISTRATION_SERVER_ENDPOINT: http://registration-pal-sowjanya.apps.longs.pal.pivotal.io
   services:
   - tracker-timesheets-database
-  - tracker-service-registry
